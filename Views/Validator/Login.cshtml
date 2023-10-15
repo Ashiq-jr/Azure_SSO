@@ -1,0 +1,19 @@
+﻿@using System.Security.Principal
+@using Microsoft.AspNetCore.Authentication.OpenIdConnect
+@using Microsoft.Extensions.Options
+@using Microsoft.Identity.Web
+﻿
+
+
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="row">
+    <div class="col-md-12 text-center">
+        <button>
+            <a class="nav-link text-dark" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignIn">Sign in</a>
+        </button>
+    </div>
+</div>
